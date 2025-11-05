@@ -1,0 +1,1 @@
+rootProject.name = "quarkus-3.29.1-native-build-bug"

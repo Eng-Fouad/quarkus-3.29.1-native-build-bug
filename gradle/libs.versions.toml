@@ -1,0 +1,13 @@
+[versions]
+quarkus                             = "3.29.1"
+quarkusGraalvmceBuilderImage        = "quay.io/quarkus/ubi-quarkus-graalvmce-builder-image:jdk-25"
+
+[plugins]
+quarkus                             = { id = "io.quarkus", version.ref = "quarkus" }
+
+[libraries]
+
+quarkus-bom                         = { group = "io.quarkus", name = "quarkus-bom", version.ref = "quarkus" }
+quarkus-rest-jackson                = { group = "io.quarkus", name = "quarkus-rest-jackson" }
+quarkus-container-image-docker      = { group = "io.quarkus", name = "quarkus-container-image-docker" }
+quarkus-junit5                      = { group = "io.quarkus", name = "quarkus-junit5" }
